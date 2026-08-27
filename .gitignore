@@ -1,0 +1,25 @@
+# Dataset — rebuilt from WikiArt by section 3 of the notebook, not tracked here.
+data/
+
+# Checkpoints (latest.pt is ~350 MB, well past GitHub's 100 MB file limit)
+checkpoints/
+checkpoints_test/
+*.pt
+*.ckpt
+*.safetensors
+
+# Cached arrays
+*.npy
+
+# Generated samples (samples_test/ is committed as a reference; new runs are not)
+samples/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
